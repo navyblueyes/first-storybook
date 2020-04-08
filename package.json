@@ -1,0 +1,37 @@
+{
+    "name": "@navyblueyes/first-storybook",
+    "module": "/dist/first-storybook",
+    "discription": "First attempt at storybook, starting with a simple button and working from there",
+    "version": "1.0.0",
+    "author": {
+        "name": "Michael Minkoff",
+        "email": "mike.v.minkoff@gmail.com"
+    },
+    "homepage": "https://github.com/navyblueyes/first-storybook#readme",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/navyblueyes/first-storybook.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "docs": "start-storybook -p 6006 .storybook",
+        "docs:build": "build-storybook -c .storybook -o docs"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/preset-react": "^7.9.4",
+        "@storybook/addon-info": "^5.3.18",
+        "@storybook/components": "^5.3.18",
+        "@storybook/react": "^5.3.18",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "react": "^16.13.1",
+        "react-scripts": "2.0.3",
+        "storybook-addon-jsx": "^7.1.15",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    }
+}
