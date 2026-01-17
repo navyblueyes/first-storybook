@@ -28,7 +28,7 @@
         "babel-loader": "^8.1.0",
         "clean-webpack-plugin": "^3.0.0",
         "react": "^16.13.1",
-        "react-scripts": "2.0.3",
+        "react-scripts": "5.0.1",
         "storybook-addon-jsx": "^7.1.15",
         "uglifyjs-webpack-plugin": "^2.2.0",
         "webpack": "^4.42.1",
